@@ -7,6 +7,6 @@ FROM Products
 WHERE UnitPrice > 50
 ORDER BY UnitPrice ASC;
 ```
-![Query 1 result](Results/checkpoint_1.png)
+![Query 1 result](Results/cp1_q1.png)
 
 ---
