@@ -18,7 +18,7 @@ FROM Customers
 WHERE Country = 'Germany'
 LIMIT 10;
 ```
-![Query 1 result](Results/cp1_q2.png)
+![Query 1 result](Results/ch1_q2.png)
 
 ### 3. What are the 5 most expensive products currently in stock (not discontinued)?
 ```sql
@@ -28,7 +28,7 @@ WHERE Discontinued = 0
 ORDER BY UnitPrice DESC
 LIMIT 5;
 ```
-![Query 1 result](Results/cp1_q3.png)
+![Query 1 result](Results/ch1_q3.png)
 
 ### 4. Which orders were shipped to France after Jan 1, 1997?
 ```sql
@@ -37,7 +37,7 @@ FROM Orders
 WHERE ShipCountry = 'France' AND OrderDate > '1997-01-01'
 ORDER BY OrderDate;
 ```
-![Query 1 result](Results/cp1_q4.png)
+![Query 1 result](Results/ch1_q4.png)
 
 ### 5. Which employees were born before 1994? Who is the oldest employee?
 ```sql
@@ -46,5 +46,5 @@ FROM Employees
 WHERE BirthDate < '1994-01-01'
 ORDER BY BirthDate ASC;
 ```
-![Query 1 result](Results/cp1_q5.png)
+![Query 1 result](Results/ch1_q5.png)
 
