@@ -1,0 +1,14 @@
+1) Basic SELECT/WHERE/ORDER BY/LIMIT
+
+SELECT ProductName, UnitPrice
+FROM Products
+WHERE UnitPrice > 50
+ORDER BY UnitPrice ASC;
+
+Manjimup Dried Apples	53
+Raclette Courdavault	55
+Carnarvon Tigers	62.5
+Sir Rodney's Marmalade	81
+Mishi Kobe Niku	97
+Thüringer Rostbratwurst	123.79
+Côte de Blaye	263.5
