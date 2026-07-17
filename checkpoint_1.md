@@ -1,6 +1,6 @@
 # Checkpoint 1 — Basic SELECT / WHERE / ORDER BY / LIMIT
 
-### Query 1: Which products cost more than $50, cheapest first?
+### Query 1: Which products cost more than $50?
 ```sql
 SELECT ProductName, UnitPrice
 FROM Products
@@ -11,7 +11,7 @@ ORDER BY UnitPrice ASC;
 
 ---
 
-### Query 2: Who are the 10 customers based in Germany?
+### Query 2: Who are the 10 customers locatedd in Germany?
 ```sql
 SELECT CompanyName, City, Country
 FROM Customers
@@ -20,7 +20,7 @@ LIMIT 10;
 ```
 ![Query 2 result](Results/ch1_r2.png)
 
-### Query 3: What are the 5 most expensive products currently in stock (not discontinued)?
+### Query 3: What are the 5 most expensive products currently in stock that are not discontinued?
 ```sql
 SELECT ProductName, UnitPrice, UnitsInStock
 FROM Products
@@ -44,7 +44,8 @@ ORDER BY OrderDate;
 SELECT FirstName, LastName, BirthDate
 FROM Employees
 WHERE BirthDate < '1994-01-01'
-ORDER BY BirthDate ASC;
+ORDER BY BirthDate ASC;  # I ordered by birthdate becaause employees are people with ages, so I didnt look for hiredate which wouldnt tell us anything about their age.
+# Margaret PEacock is the oldest employee.
 ```
 ![Query 5 result](Results/ch1_r5.png)
 
