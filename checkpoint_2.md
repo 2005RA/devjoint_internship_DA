@@ -12,7 +12,7 @@ LIMIT 20;
 
 --- 
 
-### Show 20 customers and the company they bought from.
+### Show 20 customers and the company they bought from. (LEFT JOIN)
 ```sql
 SELECT c.CompanyName, o.OrderID
 FROM Customers c
@@ -23,7 +23,7 @@ LIMIT 20;
 
 ---
 
-### Find which employee handled which order for which customer
+### Find which employee handled which order for which customer (INNER JOIN)
 ```sql
 SELECT o.OrderID, e.FirstName, e.LastName, c.CompanyName, o.OrderDate
 FROM Orders o
