@@ -9,7 +9,7 @@ GROUP BY c.CustomerID
 ORDER BY TotalRevenue DESC
 LIMIT 5;
 ```
-[[Query 2 result](Results/ch3_r9.png)
+[Query 2 result](Results/ch3_r9.png)]
 
 ---
 
@@ -22,7 +22,7 @@ GROUP BY c.CategoryID
 HAVING COUNT(p.ProductID) > 10;
 --- We should use hAVING after grouping. But before grouping, we can use WHERE.
 ```
-[[Query 2 result](Results/ch3_r10.png)
+[Query 2 result](Results/ch3_r10.png)]
 
 ---
 
@@ -37,7 +37,7 @@ GROUP BY e.EmployeeID
 HAVING TotalSales > 50000
 ORDER BY TotalSales DESC;
 ```
-[[Query 2 result](Results/ch3_r11.png)
+[Query 2 result](Results/ch3_r11.png)]
 
 ---
 
