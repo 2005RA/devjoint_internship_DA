@@ -7,7 +7,7 @@ SELECT ProductName, CategoryID, UnitPrice,
        RANK() OVER (PARTITION BY CategoryID ORDER BY UnitPrice DESC) AS PriceRank
 FROM Products;
 ```
-![Result](Results/ch5_r1.png)
+![Result](../Results/ch5_r1.png)
 
 
 ```sql
@@ -16,7 +16,7 @@ SELECT CustomerID, OrderID, OrderDate,
        ROW_NUMBER() OVER (PARTITION BY CustomerID ORDER BY OrderDate) AS OrderNumber
 FROM Orders;
 ```
-![Result](Results/ch5_r2.png)
+![Result](../Results/ch5_r2.png)
 
 ```sql
 -- Query 3: Running total of revenue over time (month by month)
@@ -29,5 +29,5 @@ INNER JOIN "Order Details" od ON o.OrderID = od.OrderID
 GROUP BY Month
 ORDER BY Month;
 ```
-![Result](Results/ch5_r3.png)
+![Result](../Results/ch5_r3.png)
 
