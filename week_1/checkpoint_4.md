@@ -21,4 +21,4 @@ HAVING TotalSpent > (
 )
 ORDER BY TotalSpent DESC;
 ```
-![Result](Results/ch4_r1.png)
+![Result](../Results/ch4_r1.png)
