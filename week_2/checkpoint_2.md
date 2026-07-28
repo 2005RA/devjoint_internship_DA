@@ -7,10 +7,11 @@
 | Home Office | 1,823 | $61,676 |
 
 **Consumer** is by far the largest segment, both in order volume and total profit earned — accounting for more orders than Corporate and Home Office combined.
+![Chart](../Results/2ch1_1.png)
 
 ## Order Trends Per Year
 
-![Order Trends Timeline](2ch1_2.png)
+![Chart](../Results/2ch1_2.png)
 
 Each Q1 shows the lowest sales of the year, followed by a steady climb that peaks in Q4. This pattern repeats every year and reflects normal retail seasonality:
 
