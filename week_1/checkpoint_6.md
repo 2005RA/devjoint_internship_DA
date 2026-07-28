@@ -16,7 +16,7 @@ WHERE (SELECT COUNT(*) FROM Orders o WHERE o.CustomerID = c.CustomerID) > 5;
 ```
 This is corrolated and slow.
 
-![Result](Results/ch6_r1.png)
+![Result](../Results/ch6_r1.png)
 
 
 **After:**
@@ -27,6 +27,6 @@ INNER JOIN Orders o ON c.CustomerID = o.CustomerID
 GROUP BY c.CustomerID
 HAVING COUNT(o.OrderID) > 5;
 ```
-This one is faster. The JOIN version runs once and groups the results, instead of re-querying .
+This one is faster. The JOIN version runs once and groups the ../Results, instead of re-querying .
 It orders separately for every single customer whichis faster on large tables.
-![Result](Results/ch6_r2.png)
+![Result](../Results/ch6_r2.png)
