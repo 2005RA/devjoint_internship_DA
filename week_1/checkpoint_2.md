@@ -8,7 +8,7 @@ INNER JOIN Categories c ON p.CategoryID = c.CategoryID
 ORDER BY o.OrderID
 LIMIT 20;
 ```
-![Query 1 result](Results/ch1_r6.png)
+![Query 1 result](../Results/ch1_r6.png)
 
 --- 
 
@@ -19,7 +19,7 @@ FROM Customers c
 LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
 LIMIT 20;
 ```
-![Query 1 result](Results/ch1_r7.png)
+![Query 1 result](../Results/ch1_r7.png)
 
 ---
 
@@ -32,6 +32,6 @@ INNER JOIN Customers c ON o.CustomerID = c.CustomerID
 ORDER BY o.OrderDate DESC
 LIMIT 20;
 ```
-![Query 1 result](Results/ch1_r8.png)
+![Query 1 result](../Results/ch1_r8.png)
 
 ---
