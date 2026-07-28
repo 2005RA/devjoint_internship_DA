@@ -9,6 +9,6 @@ Used `=XLOOKUP([@[Order ID]];Orders!B:B;Orders!O:O)` in the Returns sheet to pul
 | Technology | 1,865 | 19 | 1% |
 | **Grand Total** | **10,194** | **296** | **3%** |
 
-![Order Trends Timeline](2ch3_1.png)
+![Chart](../Results/2ch3_1.png)
 
 Overall, only about 3% of orders are returned which is not a significant issue. **Furniture** has the highest return rate (6%), while **Technology** has the lowest (1%).
