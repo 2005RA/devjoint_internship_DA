@@ -11,4 +11,4 @@ To effectively communicate key insights, four chart types were purposefully chos
 
 Pie charts were deliberately excluded, as they tend to misrepresent proportions when comparing multiple categories.
 
-![Chart](../Results/2ch2_1.png)
+![Chart](../Results/3ch2_1.png)
