@@ -8,3 +8,5 @@ consistent across the stacked bar and category bar chart (same category = same c
 
 **Uncluttered:** No pie charts (which avoids the misleading-proportions trap for 6-category data). Each visual has one clear purpose — no visual answers more than one 
 question at once. Slicers are grouped together rather than scattered, keeping the filtering controls visually distinct from the analysis area.
+
+![Model View - Missing Relationships](../Results/3ch4_1.png)
