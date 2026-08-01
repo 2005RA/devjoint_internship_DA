@@ -7,8 +7,8 @@ There were missing relationships, such as between `FactSales` and `DimDate2`. I 
 
 ### Screenshots
 
-![Model View - Missing Relationships](..Results/3ch1_1.png)
+![Model View - Missing Relationships](../Results/3ch1_1.png)
 *Model view after adding missing relationships.*
 
-![Model View - Missing Relationships](..Results/3ch1_2.png)
+![Model View - Missing Relationships](../Results/3ch1_2.png)
 *Relationship created between FactSales (OrderDateKey) and DimDate2 (DateKey).*
